@@ -52,8 +52,12 @@ function initRegisterPage() {
             defaultType: 'Solo'
         },
         "AI Prompt Battle": {
-            allowsTeam: false,
-            ruleNote: 'Individual Event (Solo Only)'
+            allowsTeam: true,
+            allowsSolo: false,
+            minMembers: 2,
+            maxMembers: 2,
+            ruleNote: 'Team Size: 2 Members (Duo Only)',
+            defaultType: 'Team'
         },
         "Reverse Coding": {
             allowsTeam: true,

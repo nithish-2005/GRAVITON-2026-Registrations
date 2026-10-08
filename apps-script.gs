@@ -1582,7 +1582,10 @@ function sendPaymentConfirmationEmail(participant, linkedEvents) {
                       '<strong>Balagurubaran:</strong> <a href="https://wa.me/919043639975" style="color: #ff334b; text-decoration: none;">+91 90436 39975 (WhatsApp)</a>' +
                     '</div>' +
                     '<div style="margin-top: 10px;">' +
-                      '<a href="https://www.instagram.com/graviton_2026?utm_source=qr&stkn=MXJzZ3B6amVweDE3NA%3D%3D" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 700; padding: 7px 18px; border-radius: 20px; letter-spacing: 0.5px;">' +
+                      '<a href="https://chat.whatsapp.com/CJd1mj9sOKA0jJAY4IbmkO" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #25d366, #128c7e); color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 700; padding: 7px 18px; border-radius: 20px; letter-spacing: 0.5px; margin-right: 8px; margin-bottom: 6px;">' +
+                        '💬 Join WhatsApp Community →' +
+                      '</a>' +
+                      '<a href="https://www.instagram.com/graviton_2026?utm_source=qr&stkn=MXJzZ3B6amVweDE3NA%3D%3D" target="_blank" style="display: inline-block; background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045); color: #ffffff; text-decoration: none; font-size: 12px; font-weight: 700; padding: 7px 18px; border-radius: 20px; letter-spacing: 0.5px; margin-bottom: 6px;">' +
                         '📸 Follow @graviton_2026 on Instagram →' +
                       '</a>' +
                     '</div>' +
@@ -1638,8 +1641,9 @@ function sendPaymentConfirmationEmail(participant, linkedEvents) {
       "- Harini (Student Coordinator)       : +91 90032 52177\n" +
       "- Balagurubaran (Student Coordinator): +91 90436 39975\n" +
       "- Staff Coordinator                  : Dr. S. K. Rajasekaran\n\n" +
-      "OFFICIAL INSTAGRAM:\n" +
-      "- Follow @graviton_2026: https://www.instagram.com/graviton_2026?utm_source=qr&stkn=MXJzZ3B6amVweDE3NA%3D%3D\n\n" +
+      "OFFICIAL COMMUNITY & SOCIAL LINKS:\n" +
+      "- Join WhatsApp Community            : https://chat.whatsapp.com/CJd1mj9sOKA0jJAY4IbmkO\n" +
+      "- Follow @graviton_2026 on Instagram  : https://www.instagram.com/graviton_2026?utm_source=qr&stkn=MXJzZ3B6amVweDE3NA%3D%3D\n\n" +
       "We look forward to seeing you at GRAVITON 2026!\n" +
       "Code • Create • Compete • Conquer"
     );

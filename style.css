@@ -4761,6 +4761,119 @@ img, svg, video {
 }
 
 /* ==========================================================================
+   OFFICIAL WHATSAPP COMMUNITY SHOWCASE CARD
+   ========================================================================== */
+.whatsapp-community-card {
+    margin-top: 18px;
+    padding: 22px 28px;
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(37, 211, 102, 0.45);
+    background: radial-gradient(circle at 10% 50%, rgba(37, 211, 102, 0.15) 0%, rgba(18, 140, 126, 0.08) 50%, rgba(6, 16, 12, 0.85) 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7), 0 0 25px rgba(37, 211, 102, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+    transition: all var(--transition-normal);
+}
+
+.whatsapp-community-card:hover {
+    border-color: #25d366;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.85), 0 0 35px rgba(37, 211, 102, 0.35);
+    transform: translateY(-2px);
+}
+
+.whatsapp-left-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 620px;
+}
+
+.whatsapp-icon-box {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 50%, #075e54 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.65rem;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+    flex-shrink: 0;
+}
+
+.whatsapp-tag-label {
+    font-family: var(--font-heading);
+    font-size: 0.72rem;
+    color: #4ade80;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.whatsapp-handle-title {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: var(--font-heading);
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.whatsapp-desc-text {
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin: 4px 0 0 0;
+    line-height: 1.5;
+}
+
+.btn-whatsapp-community {
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    color: #ffffff !important;
+    border: none;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.88rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.45);
+    transition: all var(--transition-fast);
+    padding: 10px 22px;
+    border-radius: var(--radius-full);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btn-whatsapp-community:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 0 30px rgba(37, 211, 102, 0.7);
+    color: #ffffff !important;
+}
+
+@media (max-width: 640px) {
+    .insta-social-card,
+    .whatsapp-community-card {
+        padding: 18px 16px;
+    }
+    .insta-left-meta,
+    .whatsapp-left-meta {
+        gap: 12px;
+    }
+    .btn-instagram,
+    .btn-whatsapp-community {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ==========================================================================
    OFFICIAL INTRO & TEASER VIDEO PLAYER
    ========================================================================== */
 .mk-intro-video-frame {

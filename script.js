@@ -34,10 +34,11 @@ const EVENTS_DATA = {
     "ai-prompt": {
         title: "AI Prompt Battle",
         category: "Technical",
-        teamSize: "Individual (1 Member)",
+        teamSize: "Duo (2 Members)",
         duration: "30 Mins Arena",
         desc: "Battle in prompt engineering! Given a target output image or complex code blueprint, craft the precise prompt to generate matching results.",
         rules: [
+            "Team participation: 2 members (Duo).",
             "Participants will be provided access to standard Generative AI sandboxes.",
             "Evaluation based on structural similarity, visual fidelity, and prompt efficiency.",
             "Direct editing or manual photo manipulation is strictly prohibited."

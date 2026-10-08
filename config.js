@@ -69,10 +69,11 @@ const CONFIG = {
     ],
 
     // =========================================================================
-    // 6. OFFICIAL SOCIAL MEDIA
+    // 6. OFFICIAL SOCIAL MEDIA & COMMUNITY
     // =========================================================================
     INSTAGRAM_URL: "https://www.instagram.com/graviton_2026?utm_source=qr&stkn=MXJzZ3B6amVweDE3NA%3D%3D",
-    INSTAGRAM_HANDLE: "@graviton_2026"
+    INSTAGRAM_HANDLE: "@graviton_2026",
+    WHATSAPP_COMMUNITY_URL: "https://chat.whatsapp.com/CJd1mj9sOKA0jJAY4IbmkO"
 };
 
 // Freeze configuration to prevent accidental modification at runtime
